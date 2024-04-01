@@ -1,0 +1,39 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+:root{
+  --base_color : red;
+}
+body{
+  margin:0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card{
+  font-family:"Poppins",sans-serif ;
+  padding: 40px 40px;
+  width: 400px;
+  min-height: 300px;
+  background-color: var(--base_color);
+  border:0;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 15px 0.5px gray;
+}
+button{
+  margin-top:15px;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 10px;
+  font-family: inherit;
+}
+p{font-size: large;}
+#author{
+  align-self: flex-end;
+  padding:0px 30px 40px 0;
+}
