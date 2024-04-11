@@ -6,11 +6,11 @@
     <title>quote</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="quotefetch()">
     <main id="card">
-        <p id="quote" style="font-weight: 300;color: #fdd8d8;">Let none find fault with others; let none see the omissions and commissions of others. But let one see one's own acts, done and undone.</p>
-        <p id="author" style="font-weight: 700;">The Buddha</p>
-        <button id="button">Get quote</button>
+        <p id="quote" style="font-weight: 300;color: #fdd8d8;"></p>
+        <p id="author" style="font-weight: 700;"></p>
+        <button onclick="quotefetch()" id="button">Get quote</button>
     </main>
     <script src="index.js"></script>
 </body>
